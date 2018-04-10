@@ -1,0 +1,27 @@
+.fieldTitle {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.todoCheckbox {
+  display: inline-block;
+}
+
+.todoHelpIconWrapper {
+  position: relative;
+}
+.todoHelpPopover {
+  display: none !important;
+  position: absolute !important;
+  left: 100%;
+  top: 50%;
+  margin-left: 15px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.todoHelpIconWrapper:hover .todoHelpPopover {
+  display: block !important;
+}
